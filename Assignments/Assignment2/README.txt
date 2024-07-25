@@ -1,0 +1,5 @@
+Cuda Data :- 1 GeForce RTX 2080 Ti, NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7
+1) Assignment2_epochs_60.ipynb and Assignment2_epochs_100.ipynb :- I want to show the effect on overfitting when trained on epochs > 60. To make sure I don't wipe out the output from the cells I created a new copy but only changed is in the default_config_data, changing the number of epochs to 100. Also there is some network failure involved hence didn't train the 100 epochs model again for Experiment-4.
+2) Assignment2_epochs_60.ipynb :- The attention visualization is done at the end, hence is present in the Assignment2_epochs_60.ipynb alone. The model which is used for visualization of the attention weights is the model from the Experiment-1 which is saved and loaded at later stage.
+3) new_plots.ipynb :- Copy the train and test accuracies from experiments which involves multiple train and test accuracies and Use it to get the plots for those experiments.
+4) requirements.txt :- Contains the different packages (important ones only) versions used
